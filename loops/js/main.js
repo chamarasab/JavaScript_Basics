@@ -5,7 +5,7 @@ function array(end) {
     
     for (let i = 0; i < end; i++) {
         numbers[i] = i + 1;                                                         //initilzing the array 1 - 100
-        sum += numbers[i];                                                               //calculating total each
+        sum += numbers[i];                                                          //calculating total each
     }
     
     for (let i = 0; i < numbers.length; i++) {
