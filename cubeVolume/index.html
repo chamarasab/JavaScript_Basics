@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Volume of a cube</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-header">
+              Calculator
+            </div>
+            <div class="card-body m-3">
+              <h5 class="card-title">Volume of a cube</h5>
+              <div class="mb-3">
+                <label for="txtLength" class="form-label">Length</label>
+                <input type="number" class="form-control" id="txtLength" aria-describedby="emailHelp">
+              </div>
+              <button type="button" class="btn btn-primary" onclick="volume(document.getElementById('txtLength').value)">Submit</button>
+              <div class="mt-3">
+                <label for="txtVolume" class="form-label">Volume</label>
+                <input type="number" class="form-control" id="txtVolume" aria-describedby="emailHelp">
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
